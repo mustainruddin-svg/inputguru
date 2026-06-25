@@ -549,8 +549,87 @@
     </div>
   </div>
 
-  <!-- ─── STEP 8: Review & Submit ─── -->
+  <!-- ─── STEP 8: Akun Media Sosial ─── -->
   <div id="form-step-8" class="hidden fade-in">
+    <div class="card p-6 mb-4">
+      <div class="form-section-title mb-1">Akun Media Sosial</div>
+      <p class="text-xs text-slate-400 mb-5">Isi username atau link profil akun media sosial Anda. Kosongkan jika tidak punya.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+        <div>
+          <label class="form-label">
+            <span class="inline-flex items-center gap-1.5">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" style="color:#E1306C"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              Instagram
+            </span>
+          </label>
+          <div class="flex items-center gap-2">
+            <span class="text-slate-400 text-sm font-medium">@</span>
+            <input type="text" id="f-instagram" class="form-input" placeholder="username_instagram" />
+          </div>
+        </div>
+
+        <div>
+          <label class="form-label">
+            <span class="inline-flex items-center gap-1.5">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" style="color:#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              Facebook
+            </span>
+          </label>
+          <input type="text" id="f-facebook" class="form-input" placeholder="Nama profil atau link Facebook" />
+        </div>
+
+        <div>
+          <label class="form-label">
+            <span class="inline-flex items-center gap-1.5">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" style="color:#FF0000"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+              YouTube
+            </span>
+          </label>
+          <input type="text" id="f-youtube" class="form-input" placeholder="Nama channel atau link YouTube" />
+        </div>
+
+        <div>
+          <label class="form-label">
+            <span class="inline-flex items-center gap-1.5">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" style="color:#000"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+              TikTok
+            </span>
+          </label>
+          <div class="flex items-center gap-2">
+            <span class="text-slate-400 text-sm font-medium">@</span>
+            <input type="text" id="f-tiktok" class="form-input" placeholder="username_tiktok" />
+          </div>
+        </div>
+
+        <div>
+          <label class="form-label">
+            <span class="inline-flex items-center gap-1.5">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" style="color:#000"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.028-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-3.291.821c-.462-1.578-1.222-2.83-2.26-3.72-1.096-.938-2.623-1.418-4.541-1.432-2.773.013-4.8.905-6.03 2.65-1.005 1.418-1.54 3.438-1.586 5.994.046 2.553.58 4.574 1.586 5.993 1.23 1.745 3.257 2.637 6.03 2.65 1.905-.014 3.388-.491 4.409-1.42.993-.905 1.617-2.26 1.854-4.03H12.16v-3.233h9.45c.117.65.175 1.283.175 1.94-.013 3.254-.966 5.822-2.833 7.632-1.78 1.73-4.25 2.602-7.766 2.608z"/></svg>
+              Threads
+            </span>
+          </label>
+          <div class="flex items-center gap-2">
+            <span class="text-slate-400 text-sm font-medium">@</span>
+            <input type="text" id="f-threads" class="form-input" placeholder="username_threads" />
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-4 p-3 rounded-xl text-xs flex items-center gap-2" style="background:#F0F9FF;border:1px solid #BAE6FD;color:#0369A1">
+        <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Informasi akun digunakan untuk keperluan komunikasi dan dokumentasi internal yayasan. Tidak dipublikasikan ke pihak luar.
+      </div>
+    </div>
+    <div class="flex justify-between">
+      <button class="btn-secondary" onclick="formBack()">← Kembali</button>
+      <button class="btn-primary" onclick="formNext()">Lanjut → Periksa &amp; Kirim</button>
+    </div>
+  </div>
+
+  <!-- ─── STEP 9: Review & Submit ─── -->
+  <div id="form-step-9" class="hidden fade-in">
     <div class="card p-6 mb-4">
       <div class="form-section-title mb-1">Periksa Data Sebelum Mengirim</div>
       <p class="text-xs text-slate-400 mb-5">Pastikan semua informasi sudah benar. Data akan masuk ke antrian persetujuan admin.</p>
@@ -572,8 +651,8 @@
     </div>
   </div>
 
-  <!-- ─── STEP 9: Sukses ─── -->
-  <div id="form-step-9" class="hidden fade-in">
+  <!-- ─── STEP 10: Sukses ─── -->
+  <div id="form-step-10" class="hidden fade-in">
     <div class="card p-12 text-center">
       <div class="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-5" style="background:#D1FAE5">
         <svg class="w-10 h-10" style="color:#059669" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
@@ -607,13 +686,13 @@
 // ============================================================
 // KONFIGURASI — Ganti dengan URL Apps Script Anda
 // ============================================================
-const API_URL = "https://script.google.com/macros/s/AKfycbzhKWfVrQvNLEX0j_Xu4oaG9ejNmE76whSjQ_fiQ2aSt7pA-CKbXkgCUeCCk76lw_MX/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbwoOYnqZdxm8p44uMFeJpOUBZ1AZEGymvE03oAbCf3EHda91PnFKez2g0OO89nKS85J/exec";
 
 // ============================================================
 // STATE
 // ============================================================
 let formStep = 0;
-const FORM_STEP_LABELS = ["Identitas","Data Pribadi","Pendidikan","Keluarga","Sertifikasi","Assessment","Dokumen","Lainnya","Kirim"];
+const FORM_STEP_LABELS = ["Identitas","Data Pribadi","Pendidikan","Keluarga","Sertifikasi","Assessment","Dokumen","Lainnya","Akun","Kirim"];
 let formSelectedPegawai = null;
 let staffList = []; // daftar nama dari API
 const uploadedFiles = {};
@@ -689,13 +768,13 @@ function renderStepIndicator() {
 }
 
 function showFormStep(step) {
-  for (let i = 0; i <= 9; i++) {
+  for (let i = 0; i <= 10; i++) {
     const el = document.getElementById("form-step-" + i);
     if (el) el.classList.add("hidden");
   }
   const target = document.getElementById("form-step-" + step);
   if (target) { target.classList.remove("hidden"); target.classList.add("fade-in"); }
-  if (step === 8) buildReview();
+  if (step === 9) buildReview();
   renderStepIndicator();
 }
 
@@ -704,7 +783,6 @@ function showFormStep(step) {
 // ============================================================
 function formNext() {
   if (formStep === 0 && !formSelectedPegawai) {
-    // Jika staff list kosong (API gagal), izinkan nama manual
     const manualName = document.getElementById("form-search-nama").value.trim();
     if (manualName) {
       formSelectedPegawai = { nama: manualName };
@@ -714,7 +792,7 @@ function formNext() {
     }
   }
   if (formStep === 1 && !validateStep1()) return;
-  if (formStep < 8) {
+  if (formStep < 9) {
     formStep++;
     showFormStep(formStep);
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -1086,6 +1164,12 @@ function collectFormData() {
     rekening:          document.getElementById("f-rekening")?.value || "",
     bank:              document.getElementById("f-bank")?.value || "",
     catatan:           document.getElementById("f-catatan")?.value || "",
+    // ── Akun Media Sosial ──
+    akun_instagram:    document.getElementById("f-instagram")?.value || "",
+    akun_facebook:     document.getElementById("f-facebook")?.value || "",
+    akun_youtube:      document.getElementById("f-youtube")?.value || "",
+    akun_tiktok:       document.getElementById("f-tiktok")?.value || "",
+    akun_threads:      document.getElementById("f-threads")?.value || "",
     pendidikan:        pendidikanRows,
     keluarga:          keluargaRows,
     sertifikasi:       sertifikasiRows,
@@ -1093,7 +1177,7 @@ function collectFormData() {
     files_meta,
     submitted_at: new Date().toISOString(),
     status: "Pending",
-    source: "form-pegawai", // Penanda: dari file publik
+    source: "form-pegawai",
   };
 }
 
@@ -1154,11 +1238,20 @@ function buildReview() {
     </div>`).join("")
   ).join("") || "<p class='text-slate-400 text-sm py-2'>Tidak ada file diupload</p>";
 
+  const akunHtml = [
+    row("Instagram",  d.akun_instagram ? "@" + d.akun_instagram : ""),
+    row("Facebook",   d.akun_facebook),
+    row("YouTube",    d.akun_youtube),
+    row("TikTok",     d.akun_tiktok ? "@" + d.akun_tiktok : ""),
+    row("Threads",    d.akun_threads ? "@" + d.akun_threads : ""),
+  ].filter(Boolean).join("") || "<p class='text-slate-400 text-sm py-2'>Tidak ada akun diisi</p>";
+
   reviewEl.innerHTML = [
     section("Data Pribadi", pribadi, "👤"),
     section(`Riwayat Pendidikan (${d.pendidikan.length})`, pendRows, "🎓"),
     section(`Data Keluarga (${d.keluarga.length})`, kelRows, "🏠"),
     section(`Sertifikasi & Pelatihan (${d.sertifikasi.length})`, sertRows, "📜"),
+    section("Akun Media Sosial", akunHtml, "📱"),
     section("Dokumen Diupload", fileRows, "📁"),
     section("Dokumen & Nomor Penting", dokumen, "📋"),
   ].join("");
@@ -1172,40 +1265,34 @@ async function submitForm() {
   btn.disabled = true;
   btn.innerHTML = '<div class="spinner"></div> Mengirim...';
 
-  const payload   = collectFormData();
+  const payload      = collectFormData();
   const submissionId = "PND-" + Date.now();
-  payload.id      = submissionId;
+  payload.id         = submissionId;
 
-  // ── 1. Upload file ke Google Drive ──
-  const driveLinks = {};
-  if (Object.keys(uploadedFiles).length > 0 && API_URL && !API_URL.includes("GANTI_DENGAN")) {
-    btn.innerHTML = '<div class="spinner"></div> Mengupload dokumen...';
+  // ── Sertakan file base64 langsung dalam payload utama ──
+  // GAS yang akan upload ke Drive di server side (tidak ada request terpisah)
+  if (Object.keys(uploadedFiles).length > 0) {
+    btn.innerHTML = '<div class="spinner"></div> Menyiapkan dokumen...';
+    payload.files = {};
     for (const [slot, files] of Object.entries(uploadedFiles)) {
-      driveLinks[slot] = [];
-      for (const file of files) {
-        try {
-          const resp = await fetch(API_URL, {
-            method:  "POST",
-            headers: { "Content-Type": "application/json" },
-            body:    JSON.stringify({ action: "uploadFile", nama: payload.nama, slot, fileName: file.name, mimeType: file.type, base64: file.base64 })
-          });
-          const json = await resp.json();
-          if (json.status === "ok") driveLinks[slot].push(json.link);
-        } catch(e) { console.warn("Upload file gagal:", slot, e.message); }
-      }
+      payload.files[slot] = files.map(f => ({
+        fileName: f.name,
+        mimeType: f.type,
+        base64:   f.base64,
+      }));
     }
   }
-  payload.drive_links = driveLinks;
 
-  // ── 2. Backup ke localStorage ──
+  // ── Backup ke localStorage ──
   try {
+    const forStorage = { ...payload };
+    delete forStorage.files; // jangan simpan base64 besar ke localStorage
     const existing = JSON.parse(localStorage.getItem("hris_pending_pegawai") || "[]");
-    existing.push(payload);
+    existing.push(forStorage);
     localStorage.setItem("hris_pending_pegawai", JSON.stringify(existing));
-  } catch(e) { /* localStorage mungkin penuh atau diblokir */ }
+  } catch(e) { /* localStorage penuh */ }
 
-  // ── 3. POST utama ke Apps Script ──
-  let apiSuccess = false;
+  // ── POST ke Apps Script (no-cors — GAS handle upload Drive di server) ──
   if (API_URL && !API_URL.includes("GANTI_DENGAN")) {
     btn.innerHTML = '<div class="spinner"></div> Menyimpan data...';
     try {
@@ -1215,23 +1302,19 @@ async function submitForm() {
         headers: { "Content-Type": "application/json" },
         body:    JSON.stringify({ action: "submitPending", data: payload })
       });
-      apiSuccess = true;
     } catch(e) {
       console.warn("POST ke API gagal:", e.message);
-      showToast("Koneksi terbatas. Data tersimpan lokal & akan dikirim ulang.", "info");
+      showToast("Koneksi terbatas. Data teks tersimpan, file akan dikirim ulang.", "info");
     }
-  } else {
-    // Mode offline/demo — hanya simpan lokal
-    showToast("Mode demo: data disimpan lokal saja", "info");
   }
 
   await new Promise(r => setTimeout(r, 600));
 
-  // ── 4. Tampilkan halaman sukses ──
-  formStep = 9;
-  showFormStep(9);
-  document.getElementById("success-nama").textContent  = payload.nama;
-  document.getElementById("success-id").textContent    = submissionId;
+  // ── Tampilkan halaman sukses ──
+  formStep = 10;
+  showFormStep(10);
+  document.getElementById("success-nama").textContent = payload.nama;
+  document.getElementById("success-id").textContent   = submissionId;
 
   btn.disabled = false;
   btn.innerHTML = '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg> Kirim ke Admin';
@@ -1245,7 +1328,8 @@ function resetForm() {
   formSelectedPegawai = null;
   Object.keys(uploadedFiles).forEach(k => delete uploadedFiles[k]);
   // Clear all inputs
-  ["f-nama","f-tempat-lahir","f-hp","f-email","f-alamat","f-nik","f-npwp","f-bpjs-kes","f-bpjs-tk","f-rekening","f-catatan"]
+  ["f-nama","f-tempat-lahir","f-hp","f-email","f-alamat","f-nik","f-npwp","f-bpjs-kes","f-bpjs-tk","f-rekening","f-catatan",
+   "f-instagram","f-facebook","f-youtube","f-tiktok","f-threads"]
     .forEach(id => { const el = document.getElementById(id); if (el) el.value = ""; });
   ["f-jenis-kelamin","f-gol-darah","f-status-nikah","f-bank"]
     .forEach(id => { const el = document.getElementById(id); if (el) el.value = ""; });
